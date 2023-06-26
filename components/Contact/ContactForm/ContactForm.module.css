@@ -1,0 +1,80 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  background-color: transparent;
+  /* border: 1px solid white; */
+}
+
+.contactForm {
+  height: 120%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.formContainer {
+  height: 55vh;
+  width: 55vw;
+  /* border: 1px solid white; */
+  background-color: transparent;
+}
+
+.formGreeting {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.contactFormInputs {
+  height: 50%;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.contactInputs {
+  font-weight: bolder;
+  padding: 5px;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.submitBtnnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  margin-top: 10%;
+}
+
+.submitBtn {
+  width: 120px;
+  height: 120px;
+  color: white;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.responseDiv {
+}
+
+.envelopeIcon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}

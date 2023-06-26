@@ -1,0 +1,10 @@
+.container {
+  height: 25%;
+  width: 25%;
+  margin: 2%;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}

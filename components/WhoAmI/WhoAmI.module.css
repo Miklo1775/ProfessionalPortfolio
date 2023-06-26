@@ -1,0 +1,55 @@
+.title {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.body {
+  color: white;
+  position: fixed;
+  bottom: 10vh;
+}
+
+.paragraph {
+  color: white;
+  margin-top: 0%;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.img {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 75vw;
+}
+
+.heading {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentContainer {
+  display: flex;
+  height: 70vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 20%;
+}
+
+@media screen and (min-width: 900px) {
+  .img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .paragraph {
+    font-size: 0.8rem;
+  }
+}

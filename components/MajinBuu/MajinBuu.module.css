@@ -1,0 +1,21 @@
+.buuContainer {
+  height: 27vh;
+  width: 7vw;
+  position: fixed;
+  left: 1%;
+  top: 1%;
+  overflow: visible;
+}
+
+@media screen and (max-width: 1300px) {
+  .buuContainer {
+    height: 20vh;
+    width: 9vw;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .buuContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+.buttoncontainer {
+  color: white;
+  height: 80%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  margin-bottom: 0px;
+  font-size: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+.selected {
+  color: white;
+
+  height: 125%;
+  width: 30%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 685px) {
+  .buttoncontainer {
+    font-size: 80%;
+  }
+
+  /* .selected {
+    height: 10%;
+    width: 15%;
+    font-size: x-small;
+    font-weight: bold;
+  }*/
+}
+
+@media screen and (max-width: 676px) {
+  .buttoncontainer {
+    font-size: 70%;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .buttoncontainer {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .buttoncontainer {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.selected {
+  color: white;
+  scale: 1.2;
+}
+.selected {
+  color: white;
+  scale: 1.2;
+}
+.home-container,
+.about-container,
+.project-container,
+.news-container,
+.contact-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-container {
+  /* border: 1px solid white; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-underline {
+  width: 50%;
+  border: 2px solid white;
+  height: 1px;
+  border-radius: 50%;
+}
+
+.about-div {
+  color: white;
+}
+
+.headings-container {
+  position: relative;
+
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
+#message {
+  margin: 0;
+}
+#message {
+  margin: 0;
+}
+
+.heading-div {
+}
+
+.headings-container {
+  /* border: 1px solid white; */
+  width: 100%;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 99vh;
+  width: 100vw;
+}
+
+.html-particle {
+  transform: translateY(-15px);
+}
+
+.css-particle {
+  transform: translateY(-12px);
+}
+
+.particle-container {
+  padding: 0;
+  height: 20vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+
+.particles-buu {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  overflow: visible;
+}

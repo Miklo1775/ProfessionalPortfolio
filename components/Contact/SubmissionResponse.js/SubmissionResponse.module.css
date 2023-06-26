@@ -1,0 +1,12 @@
+.responseContainer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65%;
+  width: 50%;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  margin-top: 10%;
+}

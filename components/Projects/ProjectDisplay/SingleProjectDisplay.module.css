@@ -1,0 +1,43 @@
+.singleProjectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+  height: 100%;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+
+.singleProjectTitle {
+  height: 5%;
+  margin: 5%;
+}
+
+.singleImgDescription {
+  height: 80%;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+}
+
+.singleProjectImg {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.singleProjectDescription {
+  height: 5%;
+}
+
+@media screen and (max-width: 676px) {
+  /* .singleProjectDescription {
+    margin-left: 23%;
+  } */
+}

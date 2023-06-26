@@ -1,0 +1,29 @@
+.projectsContainer {
+  display: flex;
+
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 80%;
+  height: 80%;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 676px) {
+  .projectsContainer {
+    margin-top: 25%;
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  .projectsContainer {
+    margin-top: 30%;
+  }
+}
+@media screen and (max-width: 522px) {
+  .projectsContainer {
+    margin-top: 30%;
+  }
+}

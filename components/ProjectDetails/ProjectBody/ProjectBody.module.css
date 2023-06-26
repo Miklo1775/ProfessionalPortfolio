@@ -1,0 +1,56 @@
+.projectBodyContainer {
+  position: relative;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  overflow: scroll;
+}
+
+.projectBodyContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.projectImageContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  /* overflow: hidden; */
+}
+
+.youtubeVideo {
+}
+
+.projectDescriptionContainer {
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 570px) {
+  .projectBodyContainer {
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  .projectDescriptionContainer {
+    margin-top: 40%;
+    font-size: 80%;
+    height: 40%;
+    width: 90%;
+  }
+
+  .youtubeVideo {
+    height: 25vh;
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .youtubeVideo {
+    margin-top: 20%;
+  }
+}

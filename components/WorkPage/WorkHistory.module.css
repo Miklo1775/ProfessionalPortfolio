@@ -1,0 +1,26 @@
+.workbox {
+  /* border: 1px solid white; */
+  position: absolute;
+  top: 23%;
+  left: 7%;
+  height: 70vh;
+  width: 90%;
+  text-align: center;
+}
+
+.heading,
+.title {
+  color: #ffffff;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.workContainer {
+  /* border: 1px solid white; */
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,39 @@
+.projectsContainer {
+  position: absolute;
+  top: 20%;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 60px; */
+  /* margin-top: 20%; */
+  width: 100%;
+  height: 70vh;
+  flex-wrap: wrap;
+  /* border: 1px solid white; */
+}
+
+@media screen and (max-width: 1200px) {
+  .projectsContainer {
+    /* margin-top: 20%; */
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .projectsContainer {
+    /* margin-top: 20%; */
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .projectsContainer {
+    height: 70vh;
+    top: 5%;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projectsContainer {
+    top: 10%;
+  }
+}
